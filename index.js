@@ -8,7 +8,7 @@ function distanceFromHqInFeet(NumBlock){
 }
 
 function distanceTravelledInFeet (startBlock, endBlock){
-    return startBlock > endBlock ? 
+    return startBlock > endBlock ?
         (startBlock - endBlock) * 264 : (endBlock - startBlock) * 264
 }
 
